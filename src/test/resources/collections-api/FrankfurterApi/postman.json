@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "ef8c3680-094c-4690-ba59-1ba480a49ba3",
+		"name": "Colllection Frankfurter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10842286"
+	},
+	"item": [
+		{
+			"name": "get Rates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.frankfurter.app/latest",
+					"protocol": "https",
+					"host": [
+						"api",
+						"frankfurter",
+						"app"
+					],
+					"path": [
+						"latest"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
